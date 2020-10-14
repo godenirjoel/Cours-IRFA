@@ -1,0 +1,54 @@
+.bordure {
+    border: 4px solid;
+}
+
+.cercle {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.rose {
+    border-color: pink;
+}
+
+.magenta {
+    background-color: magenta;
+}
+
+.bleuClair {
+    background-color: mediumturquoise;
+}
+
+.orange {
+    background-color: orange;
+}
+
+.jaune {
+    border-color: yellow;
+}
+
+.rouge {
+    background-color: red;
+}
+
+.vert {
+    background-color: green;
+}
+
+.bleu {
+    background-color: blue ;
+}
+
+.marron {
+    border-color: brown;
+}
+
+.carre-flex{
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+}
