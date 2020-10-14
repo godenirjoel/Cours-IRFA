@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/css/bootstrap.min.css">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css">
+        <link rel="stylesheet" href="css/style.css">
+        <link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
+
+        <title>Title</title>
+</head>
+<body>
+
+    <nav class="navbar navbar-expand-md">
+        <div class="container">
+            <a href="/" class="navbar-brand">
+                <img src="img/logo.png" alt="" id="logo">
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="navbar-collapse collapse justify-content-stretch" id="navbar">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Lien 1</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Lien 2</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Lien 3</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Lien 4</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+
+    <div class="container-fluid">
+        <div class="row conteneurCadre"> 
+            <div class="blocUn cadre"> 
+                <div class="imageUn image"> </div>
+                <h2> Travis Fimmel </h2>
+                <p> Travis Fimmel est un acteur australien, né le 15 juillet 1979 à Echuca dans l'État de Victoria. Après s'être fait remarquer en tant que mannequin à l'occasion d'une campagne publicitaire pour Calvin Klein, il abandonne cette carrière pour devenir acteur.</p>
+            </div>
+            <div class="blocDeux cadre"> 
+                <div class="imageDeux image"> </div>
+                <h2> Alexander Ludwig </h2>
+                <p> Alexander Ludwig, né le 7 mai 1992 à Vancouver (Canada), est un acteur canadien. Il est notamment connu pour ses rôles de Shane Patton dans Du sang et des larmes, de Cato Hadley dans le premier volet d'Hunger Games et de Björn Côtes-de-Fer dans la série télévisée Vikings.</p>
+            </div>
+            <div class="blocTrois cadre"> 
+                <div class="imageTrois image"> </div>
+                <h2> Katheryn Winnick </h2>
+                <p> Katheryn Winnick est une actrice canadienne, née le 17 décembre 1977 à Etobicoke. Elle débute à la télévision, en apparaissant dans de nombreuses séries télévisées, avant d’enchaîner les seconds rôles au cinéma : L'Amour sans préavis, Amour et Amnésie, Playboy à saisir et Amusement</p>
+            </div>
+            <div class="blocQuatre cadre"> 
+                <div class="imageQuatre image"> </div>
+                <h2> Alex Høgh Andersen </h2>
+                <p> Alexander Høgh Andersen est un acteur danois né le 20 mai 1994 à Slagelse au Danemark. Il est principalement connu pour le rôle d'Ivar le désossé qu'il interprète dans la série canadienne Vikings depuis 2016.</p>
+            </div>
+        </div>  
+    </div>
+
+    <div class="container-fluid conteneurFluideCarte">
+            <div class="divPanier">
+                <i class="fas fa-shopping-basket monPanier"></i>
+                <table class="table table-dark table-striped monTableau ">
+
+                    <thead class="titreTableau">
+                        <th> Saison </th>
+                        <th> Prix </th>
+                        <th> Retirer</th>
+                    </thead>
+            
+                    <tbody id="monBody">
+            
+                    </tbody>
+                </table>
+            </div>
+        
+        <div class="container containerCarte">
+            <div class="row">
+                <div class="col-6 blocCarteUn">
+                    <div class="card">
+                        <div class="slider">
+                            <i class="fas fa-chevron-right chevronDroit"></i>
+                            <i class="fas fa-chevron-left chevronGauche"></i>
+                          
+                            <div class="maDivImage">
+                                <img class="card-img-top imageCarte visible" src="img/saison1.jpg" alt="Card image cap">
+                                <img class="card-img-top imageCarte" src="img/saison1.2.jpg" alt="Card image cap">
+                                <img class="card-img-top imageCarte" src="img/saison1.3.jpg" alt="Card image cap">
+                            </div>
+                         </div>
+                        
+                        <div class="card-body carteBody">
+                        <h5 class="card-title titreCarte"> Saison 1 </h5>
+                        <p class="card-text"> Ragnar, Lagertha, Athelstan et les enfants échappent de justesse avec un bateau, mais Ragnar est grièvement blessé. Il est sauvé de la noyade par Athelstan. La famille se réfugie dans la maison de Floki, où le charpentier et sa femme Helga soignent Ragnar qui recouvre alors progressivement ses forces. <br></p>
+                            <div class="pannier">
+                                <span class="prix"> 70 €</span>
+                                <span class="ajout"> 
+                                    <button type="button" class="btn btn-primary bouton boutonPanierMoins"> -1 </button>
+                                            <input type="number" class="saisie" value="1">
+                                    <button type="button" class="btn btn-primary bouton boutonPanierPlus "> +1 </button>  
+                                </span>
+                            </div>
+                        
+                        <button type="button" class="btn btn-primary bouton btn-block boutonAjout"> Ajouter au panier </button>
+                        </div>
+                        
+                    </div>
+                </div>
+                <div class="col-6 blocCarteDeux">
+                    <div class="card" >
+                        
+                        <div class="slider">
+                            <i class="fas fa-chevron-right chevronDroit"></i>
+                            <i class="fas fa-chevron-left chevronGauche"></i>
+                          
+                            <div class="maDivImage">
+                                <img class="card-img-top imageCarte visible" src="img/saison2.jpg" alt="Card image cap">
+                                <img class="card-img-top imageCarte" src="img/saison2.2.jpg" alt="Card image cap">
+                                <img class="card-img-top imageCarte" src="img/saison2.3.jpg" alt="Card image cap">
+                            </div>
+                         </div>
+                        <div class="card-body">
+                        <h5 class="card-title titreCarte"> Saison 2 </h5>
+                        <p class="card-text">Ragnar se bat aux côtés du roi Horik contre son frère Rollo et le jarl Borg. Après avoir tué plusieurs guerriers du roi Horik et blessé Floki, Rollo se rend et avoue à son frère qu'il ne peut plus se battre contre lui. Ragnar réussit à convaincre Jarl Borg et le roi Horik de cesser leur affrontement et de s'allier avec lui pour conquérir de nouvelles terres à l'Ouest. <br></p>
+                        <div class="pannier">
+                            <span class="prix"> 90 €</span>
+                            <span class="ajout"> 
+                                <button type="button" class="btn btn-primary bouton boutonPanierMoins"> -1 </button>
+                                        <input type="number" class="saisie" value="1">
+                                <button type="button" class="btn btn-primary bouton boutonPanierPlus "> +1 </button>  
+                            </span>
+                        </div>
+                        <button type="button" class="btn btn-primary bouton btn-block"> Acheter </button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-6 bloc blocCarteTrois">
+                    <div class="card" >
+                        <div class="slider">
+                            <i class="fas fa-chevron-right chevronDroit"></i>
+                            <i class="fas fa-chevron-left chevronGauche"></i>
+                          
+                            <div class="maDivImage">
+                                <img class="card-img-top imageCarte visible" src="img/saison3.jpg" alt="Card image cap">
+                                <img class="card-img-top imageCarte" src="img/saison3.2.jpg" alt="Card image cap">
+                                <img class="card-img-top imageCarte" src="img/saison3.3.jpg" alt="Card image cap">
+                            </div>
+                         </div>
+                        <div class="card-body">
+                            <h5 class="card-title titreCarte"> Saison 3 </h5>
+                        <p class="card-text">Après avoir exécuté le roi Horik et s'être lui-même proclamé roi, Ragnar Lothbrok règne désormais sur Kattegat et projette de faire un nouveau raid sur le Wessex. Lagertha, désormais jarl, l'accompagne, ainsi que leur fils Bjorn, Rollo, Floki, Athelstan et quelques centaines de guerriers vikings. Une fois sur les terres du roi Ecbert, Ragnar doit livrer plusieurs batailles afin de préserver l'avenir de son peuple en faisant établir plusieurs colonies sur le sol d'Angleterre. <br> <br> <br> <br> </p>
+                        <div class="pannier">
+                            <span class="prix"> 100 €</span>
+                            <span class="ajout"> 
+                                <button type="button" class="btn btn-primary bouton boutonPanierMoins"> -1 </button>
+                                        <input type="number" class="saisie" value="1">
+                                <button type="button" class="btn btn-primary bouton boutonPanierPlus "> +1 </button>  
+                            </span>
+                        </div>
+                        <button type="button" class="btn btn-primary bouton btn-block"> Acheter </button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-6 bloc blocCarteQuatre">
+                    <div class="card">
+                        <div class="slider">
+                            <i class="fas fa-chevron-right chevronDroit"></i>
+                            <i class="fas fa-chevron-left chevronGauche"></i>
+                          
+                            <div class="maDivImage">
+                                <img class="card-img-top imageCarte visible" src="img/saison4.jpg" alt="Card image cap">
+                                <img class="card-img-top imageCarte" src="img/saison4.2.jpg" alt="Card image cap">
+                                <img class="card-img-top imageCarte" src="img/saison4.3.png" alt="Card image cap">
+                            </div>
+                         </div>
+                        <div class="card-body">
+                            <h5 class="card-title titreCarte"> Saison 4 </h5>
+                        <p class="card-text">À la suite de l'extraordinaire bataille de Paris, où Ragnar a su triompher de ses ennemis, ce dernier revient cependant à Kattegat, sérieusement blessé. L'idée que celui-ci puisse mourir a donc conduit son épouse, la reine Aslaug et son fils aîné Bjorn, à se positionner en tant que successeurs. Pendant ce temps, Lagertha continue à se livrer à une bataille de pouvoir contre l'ancien commandant en second Kalf. Rollo, quant à lui, a trahi son héritage Viking en faisant tuer ses compatriotes restés à l'extérieur de Paris et en épousant la princesse Gisla, la fille de l'empereur de la Francie.</p>
+                        <div class="pannier">
+                            <span class="prix"> 120 €</span>
+                            <span class="ajout"> 
+                                <button type="button" class="btn btn-primary bouton boutonPanierMoins"> -1 </button>
+                                        <input type="number" class="saisie" value="1">
+                                <button type="button" class="btn btn-primary bouton boutonPanierPlus "> +1 </button>  
+                            </span>
+                        </div>
+                        <button type="button" class="btn btn-primary bouton btn-block"> Acheter </button>
+                        </div>
+                    </div>
+                </div>
+                <div class="target"></div>
+                <div class="col-6 bloc blocCarteCinq">
+                    <div class="card" >
+                        <div class="slider">
+                            <i class="fas fa-chevron-right chevronDroit"></i>
+                            <i class="fas fa-chevron-left chevronGauche"></i>
+                          
+                            <div class="maDivImage">
+                                <img class="card-img-top imageCarte visible" src="img/saison 5.jpg" alt="Card image cap">
+                                <img class="card-img-top imageCarte" src="img/saison5.2.jpg" alt="Card image cap">
+                                <img class="card-img-top imageCarte" src="img/saison5.3.jpg" alt="Card image cap">
+                            </div>
+                         </div>
+                        <div class="card-body">
+                        <p class="card-text"> Synopsis. À la suite de la mort de Ragnar, les Vikings ont levé la plus grande armée païenne jamais vue de mémoire d'hommes, afin d'attaquer les principaux royaumes d'Angleterre et venger la mort de leur roi. ... Pour cela, il s'allie à un évêque combattant du nom d'Heahmund, qui déteste par-dessus tout le peuple viking.  </p>
+                        <div class="pannier">
+                            <span class="prix"> 140 €</span>
+                            <span class="ajout"> 
+                                <button type="button" class="btn btn-primary bouton boutonPanierMoins"> -1 </button>
+                                        <input type="number" class="saisie" value="1">
+                                <button type="button" class="btn btn-primary bouton boutonPanierPlus "> +1 </button>  
+                            </span>
+                        </div>
+                        <button type="button" class="btn btn-primary bouton btn-block"> Acheter </button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-6 bloc blocCarteSix">
+                    <div class="card">
+                        <div class="slider">
+                            <i class="fas fa-chevron-right chevronDroit"></i>
+                            <i class="fas fa-chevron-left chevronGauche"></i>
+                          
+                            <div class="maDivImage">
+                                <img class="card-img-top imageCarte visible" src="img/saison6.jpg" alt="Card image cap">
+                                <img class="card-img-top imageCarte" src="img/saison6.2.jpg" alt="Card image cap">
+                                <img class="card-img-top imageCarte" src="img/saison6.3.png" alt="Card image cap">
+                            </div>
+                         </div>
+                        <div class="card-body">
+                        <p class="card-text"> Synopsis. À la suite de la mort de Ragnar, les Vikings ont levé la plus grande armée païenne jamais vue de mémoire d'hommes, afin d'attaquer les principaux royaumes d'Angleterre et venger la mort de leur roi. ... Pour cela, il s'allie à un évêque combattant du nom d'Heahmund, qui déteste par-dessus tout le peuple viking. </p>
+                        <div class="pannier">
+                            <span class="prix"> 160 €</span>
+                            <span class="ajout"> 
+                                <button type="button" class="btn btn-primary bouton boutonPanierMoins"> -1 </button>
+                                        <input type="number" class="saisie" value="1">
+                                <button type="button" class="btn btn-primary bouton boutonPanierPlus "> +1 </button>  
+                            </span>
+                        </div>
+                        <button type="button" class="btn btn-primary bouton btn-block"> Acheter </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+    </div>
+
+
+    <div class="container-fluid footer">
+        <footer class="page-footer">
+            <div class="footer-copyright text-center py-3">© 2020 Copyright : <b> GODENIR JOEL IRFA EST </b> 
+            </div>
+        </footer>
+    </div>
+   
+    
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js" integrity="sha512-bLT0Qm9VnAYZDflyKcBaQ2gg0hSYNQrJ8RilYldYQ1FxQYoCLtUjuuRuZo+fjqhx/qtq/1itJ0C2ejDxltZVFg==" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.13.0/umd/popper.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/js/bootstrap.min.js"></script>
+    <script src="js/main.js"></script>
+
+</body>
+</html>

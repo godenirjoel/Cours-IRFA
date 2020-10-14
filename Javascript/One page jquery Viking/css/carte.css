@@ -1,0 +1,232 @@
+.conteneurFluideCarte {
+    background-color: #202020;
+    position: relative;
+    top: 82vh;
+}
+
+.card {
+    border: 1px solid  #BF9649;
+    box-shadow: black 0px 0px 10px 5px;
+    width: 26em;
+}
+
+.card-body{
+    background-color: #BF9649;
+}
+
+.card-text {
+    color: white;
+    text-align: justify;
+    text-shadow: black 2px 2px 2px;
+}
+
+.maDivImage img {
+    height: 600px;
+    display: none;
+}
+
+.maDivImage img.visible {
+    display: block;
+}
+
+.slider {
+    position: relative;
+}
+
+.titreCarte {
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 28px;
+    margin-bottom: 20px;
+    color: whitesmoke;
+    text-shadow: black 2px 2px 2px;
+    text-align: center;
+}
+
+/* ////////////////////////////////////////// */
+                /* PARTIE PANIER  */
+
+
+.bouton {
+    background-color: #202020 ;
+    border: 1px solid black;
+}
+
+.bouton:hover {
+    background-color: #BF9649 ;
+    color: #202020 ;
+    border: 1px solid black;
+}
+
+
+.boutonPanierPlus , .boutonPanierMoins {
+    width: 40px;
+    height: 40px;
+}
+
+.pannier {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px;
+} 
+
+.saisie {
+    width: 40px;
+    height: 42px; 
+    border-radius: 5px;
+    text-align: center;
+}
+
+input[type=number]::-webkit-outer-spin-button,
+input[type=number]::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+.prix {
+    font-size: 45px;
+    font-weight: bold;
+    color:#BF9649;
+    text-shadow: 1px 1px 5px  #202020 ;
+}
+
+/* ////////////////////////////////////////// */
+                /* CHEVRONS */
+
+.chevronDroit {
+    font-size: 4em;
+    color: white;
+    position: absolute;
+    top: 50%;
+    right: 1%;
+    opacity: 0.5;
+    transition-duration: 0.5s;
+}
+
+.chevronDroit:hover {
+    transition-duration: 0.5s;
+    font-size: 5em;
+    opacity: 1;
+    text-shadow: white 1px 1px 10px;
+}
+
+.chevronGauche {
+    font-size: 4em;
+    color: white;
+    position: absolute;
+    top: 50%;
+    left: 1%;
+    opacity: 0.5;
+}
+
+.chevronGauche:hover {
+    transition-duration: 0.5s;
+    font-size: 5em;
+    opacity: 1;
+    text-shadow: white 1px 1px 10px;
+}
+
+
+/* ////////////////////////////////////////// */
+            /* SLIDE DES CARDS */
+
+.blocCarteUn {
+    margin-top: 10vh;
+    margin-bottom: 10vh;
+    transform: translateX(-200%);
+    transition-duration: 2s;
+}
+
+.blocOuvertUn {
+    transform: translateX(0%);
+}
+
+.blocCarteDeux {
+    margin-top: 10vh;
+    margin-bottom: 10vh;
+    transform: translateX(200%);
+    transition-duration: 2s;
+}
+
+.blocOuvertDeux {
+    transform: translateX(0%);
+}
+
+.blocCarteTrois {
+    margin-top: 10vh;
+    margin-bottom: 10vh;
+    transform: translateX(-200%);
+    transition-duration: 2s;
+  
+}
+
+.blocOuvertTrois {
+    transform: translateX(0%);
+}
+
+.blocCarteQuatre {
+    margin-top: 10vh;
+    margin-bottom: 10vh;
+    transform: translateX(200%);
+    transition-duration: 2s;
+
+}
+
+.blocOuvertQuatre {
+    transform: translateX(0%);
+}
+
+.blocCarteCinq {
+    margin-top: 10vh;
+    margin-bottom: 10vh;
+    transform: translateX(-200%);
+    transition-duration: 2s;
+
+}
+
+.blocOuvertCinq {
+    transform: translateX(0%);
+}
+
+.blocCarteSix {
+    margin-top: 10vh;
+    margin-bottom: 10vh;
+    transform: translateX(200%);
+    transition-duration: 2s;
+  
+}
+
+.blocOuvertSix {
+    transform: translateX(0%);
+}
+
+/* ////////////////////////////////////////// */
+            /* SLIDE DES CARDS */
+
+.monPanier {
+    color: #BF9649 ;
+    font-size: 4em;
+    position: fixed;
+    top: 25%;
+}
+
+.divPanier {
+    display: flex;
+    justify-content: center;
+    width: 300px;
+    height: 700px;
+    background-color:#181818  ;
+    border: 1px solid #BF9649 ;
+    box-shadow: 0px 0px 5px 1px #BF9649;
+    position: fixed;
+    top: 25%;
+    z-index: 1;
+}
+
+.monTableau {
+    text-align: center;
+    margin-top: 5em;
+}
+
+

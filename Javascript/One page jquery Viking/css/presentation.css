@@ -1,0 +1,103 @@
+.conteneurCadre {
+    z-index: 150;
+    display: flex;
+    position: absolute;
+}
+
+.cadre {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+
+    height: 82vh;
+
+    border: 1px solid  #BF9649;
+    padding: 40px;
+
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    filter: grayscale(40%);
+
+    transition-duration: 2s;
+    animation: 2s cubic-bezier(0.215, 0.610, 0.355, 1);
+}
+
+h2 {
+    color: white;
+    text-transform: uppercase;
+    text-shadow: #0e0d0b 2px 2px 2px ;
+    font-family: 'Merriweather', serif;
+}
+
+.cadre p {
+    color: white;
+    text-shadow: #0e0d0b 2px 2px 2px;
+    text-align: center;
+    visibility: hidden;
+    font-family: 'Merriweather', serif;
+}
+
+.blocUn {
+    background-image: url(../img/ragnar.jpg);
+}
+
+.blocDeux {
+    background-image: url(../img/bjorn.png);
+}
+
+.blocTrois {
+    background-image: url(../img/lagerta.jpg);
+}
+
+.blocQuatre {
+    background-image: url(../img/yvar.jpg);
+}
+
+.image {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    border: 1px solid  #BF9649;
+    box-shadow: #0e0d0b 2px 2px 2px; 
+
+    visibility: hidden;
+    transition-duration: 2s;
+    transition-duration: 2s;
+    opacity: 0;
+
+}
+
+.imageUn {
+    background-image: url(../img/travis.jpg);
+}
+.imageDeux {
+    background-image: url(../img/acteur\ bjorn.jpg);
+}
+.imageTrois {
+    background-image: url(../img/katheryn.jpg);
+}
+.imageQuatre {
+    background-image: url(../img/acteur\ yvar.jpg);
+}
+
+
+.blocOuvert {
+    flex: 5;
+}
+
+.blocOuvert>:first-child {
+    visibility: visible;
+    opacity: 1;
+}
+
+.blocOuvert>:last-child {
+    visibility: visible;
+}

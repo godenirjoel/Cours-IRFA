@@ -1,0 +1,18 @@
+.cercle {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    background-color: blueviolet;
+}
+
+.cercle2 {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    background-color: chocolate;
+}
+
+.modif {
+    height: 400px;
+    width: 400px;
+}

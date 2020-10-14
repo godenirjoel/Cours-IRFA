@@ -1,0 +1,18 @@
+.navbar {
+    padding: 2vh;
+    display: flex;
+    justify-content: space-between;
+    background-color: #202020;
+
+}
+
+.navbar ul li a {
+    color: #E6E6E6;
+    text-transform: uppercase;
+    color: #BF9649;
+    margin-right: 15px;
+}
+
+#logo {
+    width: 250px;
+}

@@ -1,0 +1,109 @@
+.containerBloc {
+    height: 100vh;
+    display: flex;
+}
+
+.cadre {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    transition-duration: 1s;
+    transition-timing-function: cubic-bezier(0.6, -0.28, 0.735, 0.045);
+}
+
+p {
+    font-family: 'Ranchers', cursive;    
+    text-transform: uppercase;
+    color: white;
+    text-shadow: black 5px 5px 5px;
+    font-size: 30px;
+    letter-spacing: 10px;
+    transition: transform 1s;
+    
+}
+
+
+.image {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    background-size: contain;
+    background-position: center;
+    border: 2px solid brown;
+    background-color: cadetblue;
+}
+
+.imageUn {
+    background-image: url(../img/1.png);
+}
+
+.imageDeux {
+    background-image: url(../img/2.png);
+}
+
+.imageTrois {
+    background-image: url(../img/3.png);
+}
+
+.imageQuatre {
+    background-image: url(../img/4.png);
+}
+
+.imageCinq {
+    background-image: url(../img/5.png);
+}
+
+.blocUn {
+    background-image: url(../img/desert.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.blocDeux {
+    background-image: url(../img/foret.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.blocTrois {
+    background-image: url(../img/montagne.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.blocQuatre {
+    background-image: url(../img/ocean.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.blocCinq {
+    background-image: url(../img/plaine.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+
+/* ////////////////////////////////////////////////////////////////////////////////////////////////////// */
+
+.blocOuvert {
+    flex: 5;
+}
+
+.cadre>*:first-child {
+    transform: translateY(-400%);
+}
+
+.cadre>*:last-child {
+    transform: translateY(400%);
+}
+
+.blocOuvert>*:first-child {
+    transform: translateY(0%);
+}
+
+.blocOuvert>*:last-child {
+    transform: translateY(0%);
+}
+
+
