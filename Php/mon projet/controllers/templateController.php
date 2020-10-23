@@ -24,4 +24,5 @@ function genereUnTemplateToutPret($unTemplate, $desDonneesPourLeTemplate)
    return ob_get_clean();
 }
 
+
 ?>

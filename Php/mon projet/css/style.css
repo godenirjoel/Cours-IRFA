@@ -1,0 +1,11 @@
+@import url("pageaccueil.css");
+
+.maDivCache {
+    visibility: hidden;
+    display: none;
+}
+
+.maDivAffiche {
+    display: block;
+    visibility: visible;
+}

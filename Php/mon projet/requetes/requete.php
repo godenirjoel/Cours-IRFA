@@ -1,13 +1,13 @@
 <?php
 
-include('requetes/authentification/connectionBDD.php');
+include('requetes/connectionBDD.php');
 
 
 function recupereToutesLesCartes()
 {
     global $maConnection;
 
-    $maRequete = "SELECT `image` AS 'monImage', `nom` AS 'nomEntreprise' , `taille` AS 'dimensionPropose', `region` AS 'region' , `tarif` AS 'prix' FROM `matableprojet`";
+    $maRequete = "SELECT `imagestickers` AS 'monImage', `nomentreprise` AS 'nomEntreprise' , `taillestickers` AS 'dimensionPropose', `region` AS 'region', `email` AS 'email', `telephone` AS 'telephone', `tarifmensuel` AS 'prix' FROM `tablestickerspropose`";
 
     if ($reponseRequete =  mysqli_query($maConnection, $maRequete)) {
         $mesDonnees = array();
